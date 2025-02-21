@@ -19,14 +19,11 @@ mathjax: true
 ```bash
 $ hexo new post <your_post>
 ```
-{% folding black::此处是一个公式块源码 %}
+{% folding black::此处是一个公式块 %}
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt
 $$
 {% endfolding %}
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt
-$$
 
 {% notel blue 提示 %}
 This is a test here.
@@ -44,19 +41,15 @@ This is a test here.
  
 <!-- tab Second Tab-->
  
-**This is Tab 2.**
- 
-Maybe.
+**Maybe.**
  
 <!-- endtab -->
  
 <!-- tab Third Tab-->
+  
+**I don't think so.**
  
-**This is Tab 3.**
- 
-I don't think so.
- 
-This is quite boring.
+~~This is quite boring.~~
  
 <!-- endtab -->
  
