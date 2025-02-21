@@ -3,9 +3,10 @@ title: My New Post
 date: 2025-02-21 15:34:33
 tags: 
     - hello world
-    - software engineering
+    - Software Engineering
 categories:
-    - Test/SoftwareEngineering
+    - Software Engineering
+    - Test
 thumbnail: /images/Sky.jpg
 excerption: "Thank you for coming to my blog :)"
 mathjax: true
