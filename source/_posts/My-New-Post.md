@@ -4,8 +4,10 @@ date: 2025-02-21 15:34:33
 tags: 
     - hello world
     - software engineering
+categories: Test
 thumbnail: /images/Sky.jpg
 excerption: "Thank you for coming to my blog :)"
+mathjax: true
 ---
 # This is the very first of my blog posts
 ## Hope you enjoy it
