@@ -4,7 +4,8 @@ date: 2025-02-21 15:34:33
 tags: 
     - hello world
     - software engineering
-categories: Test
+categories:
+    - Test/SoftwareEngineering
 thumbnail: /images/Sky.jpg
 excerption: "Thank you for coming to my blog :)"
 mathjax: true
@@ -17,11 +18,14 @@ mathjax: true
 ```bash
 $ hexo new post <your_post>
 ```
-{% folding black::此处是一个公式块 %}
+{% folding black::此处是一个公式块源码 %}
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt
 $$
 {% endfolding %}
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt
+$$
 
 {% notel blue 提示 %}
 This is a test here.
