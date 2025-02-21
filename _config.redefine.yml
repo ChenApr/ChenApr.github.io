@@ -11,13 +11,13 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: Theme Redefine
+  title: April
   # Site subtitle
-  subtitle: Redefine Your Hexo Journey.
+  subtitle: April showers bring May flowers.
   # Author name
-  author: The Redefine Team
+  author: April Chen
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://chenapr.github.io
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /images/wheelchair.svg
   # Site logo
-  logo: 
+  logo: /images/wheelchair.svg
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/wheelchair.svg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -71,11 +71,11 @@ global:
   sidebar_width: 210px
   # Effects on mouse hover
   hover:
-    shadow: true # shadow effect
-    scale: false # scale effect
+    shadow: false # shadow effect
+    scale: true # scale effect
   # Scroll progress
   scroll_progress:
-    bar: false # progress bar
+    bar: true # progress bar
     percentage: true # percentage
   # Website counter
   website_counter:
@@ -88,7 +88,7 @@ global:
   single_page: true
   # Whether to enable Preloader.
   preloader:
-    enable: false
+    enable: true
     custom_message: # Custom message. If empty, the site title will be displayed
   # Whether to enable open graph
   open_graph:
@@ -125,13 +125,13 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    light: /images/Sakura_Modified.webp # light mode
+    dark: /images/Sakura_Modified.webp # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: April
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: ["Eloim Essaim, Eloim Essaim."] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -140,8 +140,8 @@ home_banner:
     backing_speed: 80 # Backing speed (ms)
     starting_delay: 500 # Start delay (ms)
     backing_delay: 1500 # Backing delay (ms)
-    loop: true # Whether to loop
-    smart_backspace: true # Whether to smart backspace
+    loop: false # Whether to loop
+    smart_backspace: false # Whether to smart backspace
   # Color of home banner text
   text_color: 
     light: "#fff" # light mode
@@ -165,16 +165,17 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
-      instagram: # your Instagram URL
+      github: https://github.com/chenapr # your GitHub URL
+      instagram: https://instagram.com/aprilchen89 # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
-      email:  # your email
+      email: chenapr23@gmail.com  # your email
+      bilibili: https://space.bilibili.com/38507723?spm_id_from=333.1387.0.0
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -202,10 +203,21 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    # Archives: 
-    #   path: /archives 
-    #   icon: fa-regular fa-archive # can be empty
-    # Status: 
+    Archives: 
+      path: /archives 
+      icon: fa-regular fa-archive # can be empty
+    Tags:
+      path: /tags/
+      icon: fa-regular fa-tags
+    Categories:
+      path: /categories/
+      icon: fa-regular fa-folder
+    其他:
+      Submenus:
+        关于我: /about/
+        相册: /masonry/
+        友链: /links/
+      # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
     # About: 
@@ -225,7 +237,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -238,19 +250,19 @@ home:
   sidebar:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
-    first_item: menu # First item in sidebar. menu, info
-    announcement: # Announcement text
+    first_item: info # First item in sidebar. menu, info
+    announcement: Eloim Essaim, Eloim Essaim. # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      # Archives: 
-      #   path: /archives 
-      #   icon: fa-regular fa-archive # can be empty
-      # Tags: 
-      #   path: /tags 
-      #   icon: fa-regular fa-tags # can be empty
-      # Categories: 
-      #   path: /categories 
-      #   icon: fa-regular fa-folder # can be empty
+      Archives: 
+        path: /archives 
+        icon: fa-regular fa-archive # can be empty
+      Tags: 
+        path: /tags 
+        icon: fa-regular fa-tags # can be empty
+      Categories: 
+        path: /categories 
+        icon: fa-regular fa-folder # can be empty
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
@@ -326,7 +338,7 @@ articles:
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
-    enable: false
+    enable: true
     # Article recommendation title
     title: 推荐阅读
     # Max number of articles to display
@@ -346,12 +358,12 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: waline # waline, gitalk, twikoo, giscus
+  system: giscus # waline, gitalk, twikoo, giscus
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
+      serverUrl:  # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
@@ -371,17 +383,17 @@ comment:
       region: # Twikoo region. can be empty
     # Giscus comment system. See https://giscus.app/
     giscus:
-      repo: # Github repository name e.g. EvanNotFound/hexo-theme-redefine
-      repo_id: # Github repository id
-      category: # Github discussion category
-      category_id: # Github discussion category id
+      repo: chenapr/gitalk # Github repository name e.g. EvanNotFound/hexo-theme-redefine
+      repo_id: R_kgDON8TGlw # Github repository id
+      category: Announcements # Github discussion category
+      category_id: DIC_kwDON8TGl84CnI2Z # Github discussion category id
       mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
       strict: 0 # Whether to enable strict mode. e.g. 0, 1
       reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
       emit_metadata: 0 # Whether to emit metadata. e.g. 0, 1
-      lang: en # Giscus language. e.g. en, zh-CN, zh-TW
+      lang: zh-CN # Giscus language. e.g. en, zh-CN, zh-TW
       input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
-      loading: lazy # Load the comments lazily
+      loading: not-lazy # Load the comments lazily
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -393,7 +405,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2025/2/19 12:00:00
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
@@ -430,19 +442,29 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
-        lrc: # audio cover lrc
-#      - name: # audio name
-#        artist: # audio artist
-#        url: # audio url
-#        cover: # audio cover url
-#        lrc: # audio cover lrc
+      - name: 挫けそうになる私を支えてください # audio name
+        artist: 横山克 # audio artist
+        url: /music/挫.flac  # audio url
+        cover: /music/covers/四月は君の嘘.jpg # audio cover url
+      - name: 君がいる # audio name
+        artist: 横山克 # audio artist
+        url: /music/君がいる.flac # audio url
+        cover: /music/covers/四月は君の嘘.jpg # audio cover url
+      - name: 私の嘘
+        artist: 横山克
+        url: /music/私の嘘.flac
+        cover: /music/covers/四月は君の嘘.jpg
+      - name: 私の嘘～PianoSolo
+        artist: 横山克
+        url: /music/私の嘘～PianoSolo.flac
+        cover: /music/covers/四月は君の嘘.jpg
+      - name: 助眠曲 惦惦
+        artist: 战双帕弥什 Vanguard Sound
+        url: /music/惦惦.flac
+        cover: /music/covers/惦惦.jpg
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
