@@ -213,6 +213,7 @@ navbar:
       path: /categories/
       icon: fa-regular fa-folder
     其他:
+      icon: fa-regular fa-address-card
       Submenus:
         关于我: /about/
         相册: /masonry/
