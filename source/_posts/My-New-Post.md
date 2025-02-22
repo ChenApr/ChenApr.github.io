@@ -8,7 +8,7 @@ categories:
     - Software Engineering
     - Test
 thumbnail: /images/Sky.jpg
-excerption: "Thank you for coming to my blog :)"
+excerpt: "Thank you for coming to my blog :)"
 mathjax: true
 ---
 # This is the very first of my blog posts
