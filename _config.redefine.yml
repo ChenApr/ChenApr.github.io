@@ -212,6 +212,9 @@ navbar:
     Categories:
       path: /categories/
       icon: fa-regular fa-folder
+    笔记:
+      path: /Blog/
+      icon: fa-regular fa-notes
     其他:
       icon: fa-regular fa-address-card
       submenus:
