@@ -1,7 +1,9 @@
 ---
 title: Celeste, Me and Prelogue
 date: 2025-03-05 00:56:55
-tags:
+tags: 
+    - game record
+categories: game record
 thumbnail: /photos/Prelogue/Finish.jpg
 sticky: 99
 excerpt: 因为山就在那里
