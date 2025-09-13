@@ -451,24 +451,24 @@ plugins:
     audios:
       - name: 挫けそうになる私を支えてください # audio name
         artist: 横山克 # audio artist
-        url: /music/挫.flac  # audio url
-        cover: /music/covers/四月は君の嘘.jpg # audio cover url
+        url: /music/HomePage/挫.flac  # audio url
+        cover: /music/HomePage/covers/四月は君の嘘.jpg # audio cover url
       - name: 君がいる # audio name
         artist: 横山克 # audio artist
-        url: /music/君がいる.flac # audio url
-        cover: /music/covers/四月は君の嘘.jpg # audio cover url
+        url: /music/HomePage/君がいる.flac # audio url
+        cover: /music/HomePage/covers/四月は君の嘘.jpg # audio cover url
       - name: 私の嘘
         artist: 横山克
-        url: /music/私の嘘.flac
-        cover: /music/covers/四月は君の嘘.jpg
+        url: /music/HomePage/私の嘘.flac
+        cover: /music/HomePage/covers/四月は君の嘘.jpg
       - name: 私の嘘～PianoSolo
         artist: 横山克
-        url: /music/私の嘘～PianoSolo.flac
-        cover: /music/covers/四月は君の嘘.jpg
+        url: /music/HomePage/私の嘘～PianoSolo.flac
+        cover: /music/HomePage/covers/四月は君の嘘.jpg
       - name: 助眠曲 惦惦
         artist: 战双帕弥什 Vanguard Sound
-        url: /music/惦惦.flac
-        cover: /music/covers/惦惦.jpg
+        url: /music/HomePage/惦惦.flac
+        cover: /music/HomePage/covers/惦惦.jpg
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
